@@ -2,8 +2,8 @@
 //資料庫設定
 $dbServer = "localhost";
 $dbUser = "root";
-$dbPass = "qazsd1230asdfg1452";
-$dbName = "8degreerainbow";
+$dbPass = "";
+$dbName = "";
 
 //連線資料庫伺服器
 $conn = @mysqli_connect($dbServer, $dbUser, $dbPass, $dbName);
